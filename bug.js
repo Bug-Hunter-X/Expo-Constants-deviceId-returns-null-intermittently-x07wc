@@ -1,0 +1,1 @@
+This bug occurs when using the Expo `Constants.deviceId` API to retrieve the device ID.  In certain situations, particularly when running in a simulator or emulator, or when the app is rebuilt/reinstalled, the returned deviceId is null.  This can disrupt app functionality which relies on unique device identifiers.
